@@ -161,6 +161,11 @@ hr {
   opacity: 1;
 }
 
+/* .parent a:link{
+  text-decoration: none;
+  opacity: 1;
+} */
+
 .div1 {
   display: inline-block;
   padding: 5px;
@@ -189,8 +194,8 @@ hr {
   height: 250px;
   width: 400px;
   position: absolute;
-  top: 170px;
-  left:480px;
+  margin-top: -670px;
+  margin-left: 500px;
   background: #FFFFFF;
   box-shadow: 0px 0px 20px #67676729;
   border: 1px solid #EDEDED;
@@ -202,20 +207,20 @@ hr {
   background-color: #00A5EC;
   height: 20px;
   width: 130px;
-  text-align: left;
+  text-align: center;
   padding: 10px;
   color: white;
   font-weight: bold;
   border-radius: 5px;
   position: absolute;
-  bottom: 40px;
-  right: 10px;
+  bottom: 45px;
+  margin-left: 240px;
 }
 
 .task h3 {
-  padding-top: 15px;
-  text-align: left;
-  margin-left: 10px;
+  position: relative;
+  top: 10px;
+  left: 10px;
 }
 
 .task span {
@@ -228,17 +233,17 @@ hr {
   padding-left: 10px;
 }
 
-/* .task1 {
+.task1 {
   display: inline-block;
-} */
+}
 
-/* .task2 {
+.task2 {
   display: inline-block;
   font-size: 20px;
   color: #C2C2C2;
   margin-left: 180px;
   padding: 20px;
-} */
+}
 
 hr {
   opacity: 0.3;
@@ -254,6 +259,20 @@ hr {
   height: 30px;
 }
 
+#addtask {
+  height: 25px;
+  width: 150px;
+  background-color: #00A5EC;
+  font-size: 15px;
+  padding: 5px;
+  color: white;
+  margin-top: 50px;
+  border-radius: 5px;
+  float: right;
+  margin-right: 17px;
+  padding-top: 15px;
+}
+
 .back {
   display: inline;
   float: right;
@@ -266,12 +285,15 @@ hr {
   float: right;
   margin-right: -200px;
 }
+.child4 a{
+  text-decoration: none;
+}
 
 
 /*  */
 
 
-@media only screen and (min-width:250px) and (max-width:657px) {
+@media only screen and (min-width:250px) and (max-width:801px) {
   .flex {
     flex-direction: column;
     height: auto;
@@ -350,15 +372,14 @@ hr {
     top: 250px;
     left: 7px;
     width: 90%; 
-    text-align: center;
+    text-align: left;
   }
 
   .task p {
     margin: auto;
     bottom: 40px;
     right: 5px;
-    text-align: center;
-    
+    text-align: left;
   }
 
   .back {
@@ -370,6 +391,117 @@ hr {
   .pchild1{
     margin: auto;
     position: relative;
-    right: 118px;
+    right: 111px;
   }
 }
+
+@media only screen and (min-width:820px) and (max-width:1180px) {
+  .flex {
+    flex-direction: column;
+    height: 150vh;
+    width: auto;
+  }
+
+  .flex>div {
+    width: 95%;
+  }
+
+  .box1 {
+    flex-direction: column;
+    height: auto;
+    width: 98%;
+  }
+
+  .box2 {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+
+  .box3 {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+
+  .box4 {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+
+  .box5 {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+
+  .parent {
+    margin: auto;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pchild2 {
+    margin: auto;
+    position: absolute;
+    left: 380px;
+  }
+
+  .child1 {
+    margin: 20px 0px 0px 0px;
+  }
+
+  .child2 {
+    display: none;
+    float: left;
+  }
+
+  .check {
+    height: auto;
+    width: 100%;
+  }
+
+  .navbar {
+    margin: auto;
+    width: auto;
+  }
+
+  .task {
+    margin: 10px;
+    position: absolute;
+    top: 250px;
+    left: 18px;
+    width: 93%; 
+    text-align: left;
+  }
+
+  .task p {
+    margin: auto;
+    bottom: 40px;
+    right: 5px;
+    text-align: left;
+  }
+  .task span{
+    position: relative;
+    left: 350px;
+  }
+  .task input{
+    width: 96%;
+  }
+
+  .back {
+    margin: auto;
+    position: relative;
+    top: 20px;
+    right: 300px;
+  }
+  .pchild1{
+    margin: auto;
+    position: relative;
+    right: 346px;
+  }
+
+}
+
