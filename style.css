@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -293,7 +294,7 @@ hr {
 /*  */
 
 
-@media only screen and (min-width:250px) and (max-width:801px) {
+@media only screen and (min-width:250px) and (max-width:819px) {
   .flex {
     flex-direction: column;
     height: auto;
@@ -485,7 +486,7 @@ hr {
   }
   .task span{
     position: relative;
-    left: 350px;
+    left: -10px;
   }
   .task input{
     width: 96%;
@@ -505,3 +506,212 @@ hr {
 
 }
 
+@media only screen and (min-width:768px) and (max-width:1024px) {
+  .flex {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+
+  .flex>div {
+    width: 95%;
+  }
+
+  .box1 {
+    flex-direction: column;
+    height: auto;
+    width: 98%;
+  }
+
+  .box2 {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+
+  .box3 {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+
+  .box4 {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+
+  .box5 {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+
+  .parent {
+    margin: auto;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pchild2 {
+    margin: auto;
+    position: absolute;
+    left: 363px;
+  }
+
+  .child1 {
+    margin: 20px 0px 0px 0px;
+  }
+
+  .child2 {
+    display: none;
+    float: left;
+  }
+
+  .check {
+    height: auto;
+    width: 100%;
+  }
+
+  .navbar {
+    margin: auto;
+    width: auto;
+  }
+
+  .task {
+    margin: 10px;
+    position: absolute;
+    top: 250px;
+    left: 17px;
+    width: 93%; 
+    text-align: left;
+  }
+
+  .task p {
+    margin: auto;
+    bottom: 40px;
+    right: 37px;
+    text-align: left;
+  }
+
+  .back {
+    margin: auto;
+    position: relative;
+    top: 20px;
+    left: -260px;
+  }
+  .pchild1{
+    margin: auto;
+    position: relative;
+    right: 311px;
+  }
+  .task span{
+    margin-left: 600px;
+  }
+}
+/* 
+@media only screen and (min-width:414px) and (max-width:896px) {
+  .flex {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+
+  .flex>div {
+    width: 95%;
+  }
+
+  .box1 {
+    flex-direction: column;
+    height: auto;
+    width: 98%;
+  }
+
+  .box2 {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+
+  .box3 {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+
+  .box4 {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+
+  .box5 {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+
+  .parent {
+    margin: auto;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pchild2 {
+    margin: auto;
+    position: absolute;
+    left: 192px;
+  }
+
+  .child1 {
+    margin: 20px 0px 0px 0px;
+  }
+
+  .child2 {
+    display: none;
+    float: left;
+  }
+
+  .check {
+    height: auto;
+    width: 100%;
+  }
+
+  .navbar {
+    margin: auto;
+    width: auto;
+  }
+
+  .task {
+    margin: 10px;
+    position: absolute;
+    top: 250px;
+    left: 4px;
+    width: 93%; 
+    text-align: left;
+  }
+
+  .task p {
+    margin: auto;
+    bottom: 40px;
+    right: 37px;
+    text-align: left;
+  }
+
+  .back {
+    margin: auto;
+    position: relative;
+    top: 20px;
+    left: 80px;
+  }
+  .pchild1{
+    margin: auto;
+    position: relative;
+    right: 128px;
+  }
+  .task span{
+    margin-left: 230px;
+  }
+} */
